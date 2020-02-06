@@ -1,6 +1,9 @@
-# Build a Backend REST API with Python & Django - Beginner
+# Backend REST API with Python & Django
 
-This is the supplementary cheat sheet document for our course: [Build a Backend REST API with Python & Django - Beginner](https://www.udemy.com/django-python/?couponCode=2019UPDATECHEATSHEET)
+This is supplementary document for Backend REST API with Python & Django
+
+Add me in [LinkeDin](https://www.linkedin.com/in/alardosa/)
+
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
