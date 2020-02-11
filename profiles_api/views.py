@@ -2,7 +2,11 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework import viewsets
+from rest_framework.authentication import TokenAuthentication
+
 from profiles_api import serializers
+from profiles_api import models
+from profiles_api import permissions
 
 
 class HelloApiView(APIView):
@@ -45,6 +49,8 @@ class HelloApiView(APIView):
         return Response({'method': 'DELETE'})
 
 
+# url: http://127.0.0.1:8000/api/hello-viewset/
+# url: http://127.0.0.1:8000/api/hello-viewset/1/
 class HelloViewSet(viewsets.ViewSet):
     """Test API ViewSet"""
     serializer_class = serializers.HelloSerializer
@@ -73,8 +79,6 @@ class HelloViewSet(viewsets.ViewSet):
                 status=status.HTTP_400_BAD_REQUEST
             )
 
-    # to test below http://127.0.0.1:8000/api/hello-viewset/1/
-
     def retrieve(self, request, pk=None):
         """Handle getting an object by its ID"""
         return Response({'http_method': 'GET'})
@@ -90,3 +94,13 @@ class HelloViewSet(viewsets.ViewSet):
     def destroy(self, request, pk=None):
         """Handle removing an object"""
         return Response({'http_method': 'DELETE'})
+
+
+# url: http://127.0.0.1:8000/api/profile/
+# url: http://127.0.0.1:8000/api/profile/1/
+class UserProfileViewSet(viewsets.ModelViewSet):
+    """Handle creating, creating and updating profiles"""
+    serializer_class = serializers.UserProfileSerializer
+    queryset = models.UserProfile.objects.all()
+    authentication_classes = (TokenAuthentication,)
+    permission_classes = (permissions.UpdateOwnProfile,)
