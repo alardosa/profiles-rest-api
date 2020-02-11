@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="385631f0-8d4f-4ec1-aaf4-e0be4cf2b06d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/profiles_api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/profiles-rest-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/profiles-rest-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profiles_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_api/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profiles_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/profiles_project/urls.py" afterDir="false" />
     </list>
@@ -26,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/profiles_api/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="462">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -38,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profiles_project/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="340">
+              <caret line="20" column="46" lean-forward="true" selection-start-line="18" selection-end-line="20" selection-end-column="46" />
               <folding>
                 <element signature="e#640#672#0" expanded="true" />
               </folding>
@@ -90,9 +84,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/profiles_api/serializers.py" />
-        <option value="$PROJECT_DIR$/profiles_project/urls.py" />
         <option value="$PROJECT_DIR$/profiles_api/urls.py" />
         <option value="$PROJECT_DIR$/hello_world.py" />
+        <option value="$PROJECT_DIR$/profiles_project/urls.py" />
         <option value="$PROJECT_DIR$/profiles_api/views.py" />
       </list>
     </option>
@@ -182,12 +176,12 @@
       <workItem from="1581034292811" duration="9029000" />
       <workItem from="1581382016667" duration="2718000" />
       <workItem from="1581385224621" duration="1328000" />
-      <workItem from="1581386602039" duration="2055000" />
+      <workItem from="1581386602039" duration="3318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15130000" />
+    <option name="totallyTimeSpent" value="16393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -310,8 +304,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/profiles_project/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="340">
+          <caret line="20" column="46" lean-forward="true" selection-start-line="18" selection-end-line="20" selection-end-column="46" />
           <folding>
             <element signature="e#640#672#0" expanded="true" />
           </folding>
@@ -320,8 +314,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/profiles_api/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="462">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
