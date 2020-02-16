@@ -1,0 +1,23 @@
+# For other regions use the following ID for the "Ubuntu Server 18.04 LTS (HVM), SSD Volume Type" AMI:
+
+ami-024a64a6685d05041 - N. Virginia (us-east-1)
+ami-0c55b159cbfafe1f0 - Ohio (us-east-2)
+ami-06397100adf427136 - N. California (us-west-1)
+ami-005bdb005fb00e791 - Oregon (us-west-2)
+
+ami-06832d84cd1dbb448 - Mumbai (ap-south-1)
+ami-02c9728b733d27242 - Seoul (ap-northeast-2)
+ami-0dad20bd1b9c8c004 - Singapore (ap-southeast-1)
+ami-0b76c3b150c6b1423 - Sydney (ap-southeast-2)
+ami-09c81ecf1c2b2ef70 - Tokyo (ap-northeast-1)
+
+ami-01b60a3259250381b - Canada Central (ca-central-1)
+
+ami-090f10efc254eaf55 - Frankfurt (eu-central-1)
+ami-08d658f84a6d84a80 - Ireland (eu-west-1)
+ami-07dc734dc14746eab - London (eu-west-2)
+ami-0d0eaed20348a3389 - London (eu-west-2)
+ami-03bca18cb3dc173c9 - Paris (eu-west-3)
+ami-5e9c1520 - Stockholm (eu-north-1)
+
+ami-09f4cd7c0b533b081 - São Paulo (sa-east-1)

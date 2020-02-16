@@ -1,8 +1,8 @@
-# Backend REST API with Python & Django
+# Basic Backend REST API with Python & Django
 
-This is supplementary document for Backend REST API with Python & Django
+Basic Backend REST API with Python & Django
 
-Add me in [LinkeDin](https://www.linkedin.com/in/alardosa/)
+Any questions? Let's talk [LinkeDin](https://www.linkedin.com/in/alardosa/)
 
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
