@@ -138,4 +138,4 @@ dmypy.json
 eb-package.zip
 static/
 
-*.pem
+.pem
