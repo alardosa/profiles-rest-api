@@ -41,4 +41,4 @@ sudo rm /etc/nginx/sites-enabled/default
 sudo ln -s /etc/nginx/sites-available/profiles_api.conf /etc/nginx/sites-enabled/profiles_api.conf
 sudo systemctl restart nginx.service
 
-echo "DONE! :))"
+echo "DONE! :))";

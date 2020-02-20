@@ -9,4 +9,4 @@ sudo $PROJECT_BASE_PATH/env/bin/python manage.py migrate
 sudo $PROJECT_BASE_PATH/env/bin/python manage.py collectstatic --noinput
 sudo supervisorctl restart profiles_api
 
-echo "DONE! :)"
+echo "DONE! :)";
