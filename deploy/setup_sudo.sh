@@ -13,7 +13,7 @@ sudo apt-get install -y python3-dev python3-venv sqlite python-pip supervisor ng
 
 # Create project directory
 sudo mkdir -p $PROJECT_BASE_PATH
-git clone PROJECT_GIT_URL $PROJECT_BASE_PATH
+git clone $PROJECT_GIT_URL $PROJECT_BASE_PATH
 
 # Create virtual environment
 sudo mkdir -p $PROJECT_BASE_PATH/env
